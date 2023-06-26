@@ -1,0 +1,26 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.item {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  float: left;
+}
+
+#current {
+  background-color: lightblue;
+}
+
+.weatherIcon {
+  height: 2em;
+  object-fit: contain;
+}
